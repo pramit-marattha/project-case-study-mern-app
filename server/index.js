@@ -9,7 +9,7 @@ const noteRouter = require('./routes/note-routes')
 // dotenv config
 require('dotenv').config();
 
-// app and por5t config
+// app and port config
 const app = express();
 const port = process.env.PORT || 4000;
 

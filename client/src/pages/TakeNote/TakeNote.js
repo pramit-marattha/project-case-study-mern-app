@@ -9,10 +9,9 @@ const TakeNote = () => {
         setItems(e.target.value);
     }
     const clickHandler = async (e) => {
-        // e.preventDefault()
         axios({
             method: 'post',
-            url: process.env.REACT_APP_SERVER_API_URL,
+            url: "http://localhost:4000",
             data: {
               note: items,
             }
@@ -24,7 +23,7 @@ const TakeNote = () => {
     };
 
     useEffect(()=>{
-        axios.get(process.env.REACT_APP_SERVER_API_URL).then((response) => {
+        axios.get("http://localhost:4000").then((response) => {
             let data = [];
             for(var i =0; i < response.data.data.length; i++){
                 data.push(response.data.data[i].note)

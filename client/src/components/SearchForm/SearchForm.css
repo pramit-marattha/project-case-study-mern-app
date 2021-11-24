@@ -1,15 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
-/* .search-input {
-  padding: 10px 20px;
-  border: solid 2px #686868;
-  border-radius: 5px;
-  margin-right: 5px;
-  outline: none;
-}
-.search-input:focus {
-  border-color: #005ad8;
-  transition: 0.5s;
-} */
+
 
 .search-button {
   background-image: linear-gradient(
@@ -39,16 +29,6 @@
   color: #fff;
   text-decoration: none;
 }
-
-/* .search-button {
-  padding: 10px 100px;
-  border: solid 2px #005ad8;
-  border-radius: 5px;
-  background-color: #005ad8;
-  color: white;
-  outline: none;
-  cursor: pointer;
-} */
 
 .search-label {
   color: white;

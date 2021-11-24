@@ -3,7 +3,6 @@ const Note = require('../models/noteSchema')
 
 createItem = (req, res) => {
     
-
         const body = req.body
 
         if (!body) {

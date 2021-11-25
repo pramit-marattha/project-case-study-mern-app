@@ -6,6 +6,9 @@ const Card = (props) => {
 
 
   return (
+    <>
+    <div className="row">
+    <div className="column">
     <div className="container__cardbox">
         <div className="card-body">
           <div className="card-title"><a href={props.link} target="_blank" rel="noreferrer">{props.title}</a></div>
@@ -20,6 +23,9 @@ const Card = (props) => {
           <img className="card-image" src={props.image} alt={props.title} />
         </div>
       </div>
+      </div>
+      </div>
+      </>
   )
 }
 

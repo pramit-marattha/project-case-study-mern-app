@@ -8,9 +8,9 @@
 .todo-button {
   background-image: linear-gradient(
     to right,
-    #02aab0 0%,
-    #00cdac 51%,
-    #02aab0 100%
+    rgb(134, 97, 209) 0%,
+    #8f75c2 51%,
+    #693ac0 100%
   );
 }
 .todo-button {

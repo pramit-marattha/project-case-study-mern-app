@@ -47,4 +47,18 @@
   border-radius: 10%;
 }
 
+.card-image-right{
+  text-align: right;
+  justify-content: center;
+}
+
+.card-image-right img{
+  display: inline-block;
+  margin-top: -240px;
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.75);
+  width:28%;
+  opacity: 0.8;
+  z-index: -1;
+}
+
 

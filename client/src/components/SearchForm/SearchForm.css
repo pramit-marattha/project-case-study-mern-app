@@ -4,21 +4,22 @@
 .search-button {
   background-image: linear-gradient(
     to right,
-    #02aab0 0%,
-    #00cdac 51%,
-    #02aab0 100%
+    rgb(134, 97, 209) 0%,
+    #8f75c2 51%,
+    #693ac0 100%
   );
 }
 .search-button {
   margin: 0 auto;
-  padding: 10px 100px;
+  padding: 10px 70px;
   margin-top: 0px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  box-shadow: 0 0 20px #eee;
+  font-family: "Finger Paint";
+  box-shadow: 0 0 20px #a385df;
   border-radius: 10px;
   display: block;
   outline: none;
@@ -35,21 +36,23 @@
   font-family: "Finger Paint", cursive;
   font-size: 1.2rem;
   margin-left: 2rem;
-  margin-top: 0.2rem;
+  margin-top: 0.1rem;
   display: block;
   transition: all 0.3s;
   transform: translateY(0rem);
 }
 
 .search-input {
-  color: #333;
-  font-size: 1.2rem;
+  color: #8661d1;
+  font-size: 1rem;
+  font-family: "Finger Paint", cursive;
   margin: 0 auto;
   padding: 1rem 0.5rem;
-  border-radius: 0.6rem;
+  border-radius: 0.3rem;
   background-color: rgb(255, 255, 255);
   border: none;
-  width: 50rem;
+  width: 56rem;
+  height: 4rem;
   display: block;
   border-bottom: 1rem solid transparent;
   transition: all 0.3s;

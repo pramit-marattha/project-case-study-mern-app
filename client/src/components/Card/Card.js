@@ -21,6 +21,9 @@ const Card = (props) => {
           <div className="card-description">Open Issues: {props.openIssuesCount} 🏷️</div>
           <div className="card-description">Repo Size: {props.repoSize} KB ⚖️</div>
           <img className="card-image" src={props.image} alt={props.title} />
+          <div className="card-image-right">
+          <img src="https://user-images.githubusercontent.com/37651620/143386980-6466a1c0-2683-4e92-8003-4a1969cf6536.png" alt="github" />
+          </div>
         </div>
       </div>
       </div>
